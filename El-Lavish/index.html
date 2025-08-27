@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>el-lavish</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="logo">
+                <img src="logo.webp">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+            <button class="btnLogin-popup">Login</button>
+        </div>
+
+        <nav class="nav-bar">
+            <ul class="nav-links"> <!--filter listing-->
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About </a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    
+
+
+    <section class="popular-categories">
+        <h2>Explore Popular Categories</h2>
+        <div class="category-container">
+
+            <div class="category-item">
+                <img src="C_lux.webp">
+                <p>Luxury</p>
+            </div>
+            <div class="category-item">
+                <img src="C_sne.webp">
+                <p>Sneakers</p>
+            </div>
+            <div class="category-item">
+                <img src="C_home.webp">
+                <p>Home Appliances</p>
+            </div>
+            <div class="category-item">
+                <img src="C_hotel.webp">
+                <p>Travel & Hotel</p>
+            </div>
+            <div class="category-item">
+                <img src="C_pre.webp">
+                <p>Pre-loved Luxury</p>
+            </div>
+            <div class="category-item">
+                <img src="C_toys.webp">
+                <p>Toys & Gifts </p>
+            </div>
+        </div>
+    </section> 
+    
+   
+
+
+
+
+    
+    <section class="luxury-products">
+        <h2>Shop Luxury Watches by Brand</h2>
+        <div class="product-category">
+
+            <div class="product-item">
+                <img src="W_Rolex.webp">
+                <p>Rolex</p>
+            </div>
+            <div class="product-item">
+                <img src="W_Omega.webp">
+                <p>OMEGA</p>
+            </div>
+            <div class="product-item">
+                <img src="W_Breitling.webp">
+                <p>Breitling</p>
+            </div>
+            <div class="product-item">
+                <img src="W_TAG.webp" >
+                <p>TAG Heuer</p>
+            </div>
+            <div class="product-item">
+                <img src="W_Patek.webp">
+                <p>Patek Philippe</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="luxury-products ">
+        <h2>Shop Luxury Bags by Brand</h2>
+        <div class="product-category">
+
+            <div class="product-item">
+                <img src="B_LV.webp">
+                <p>Louis Vuitton</p>
+            </div>
+            <div class="product-item">
+                <img src="B_gucci.webp">
+                <p>Gucci</p>
+            </div>
+            <div class="product-item">
+                <img src="B_Chanel.webp">
+                <p>CHANEL</p>
+            </div>
+            <div class="product-item">
+                <img src="B_Hermes.webp">
+                <p>HERMÈS</p>
+            </div>
+            <div class="product-item">
+                <img src="B_Saint.webp">
+                <p>Saint Laurent</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="luxury-products ">
+        <h2>Shop Fine Jewelry by Brand</h2>
+        <div class="product-category">
+
+            <div class="product-item">
+                <img src="J_tiffany.webp">
+                <p>Tiffany & Co.</p>
+            </div>
+            <div class="product-item">
+                <img src="J_David.webp">
+                <p>David Yurman</p>
+            </div>
+            <div class="product-item">
+                <img src="J_Cartier.webp">
+                <p>Cartier</p>
+            </div>
+            <div class="product-item">
+                <img src="J_Chanel.webp">
+                <p>CHANEL</p>
+            </div>
+            <div class="product-item">
+                <img src="J_Van.webp">
+                <p>Van Cleef & Arpels</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+    
+    <section class="section-banner garden-needs">
+        <div class="banner-content">
+            <h2>Just what your garden needs</h2>
+            <p>Discover BBQ, pools and garden furniture on eBay.</p>
+            <button class="shop-now-btn">Shop now</button>
+        </div>
+    </section>
+    
+    <section class="section-banner comfort-design">
+        <div class="banner-content">
+            <h2>Comfort, design, uniquely you</h2>
+            <p>Discover furniture meant for your home on eBay.</p>
+            <button class="choose-style-btn">Choose your style</button>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+
+
+
+
+
+
+
+    
+    <section class="order-section">
+        <h2>Confirm Your Order</h2>
+        <form action="connect.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="Enter your address location" required>
+            </div>
+            <button type="submit" class="submit-btn">Submit Order</button>
+        </form>
+    </section>
+
+
+
+    
+    <section class="cancel-section">
+        <h2>Cancel Your Order</h2>
+        <form action="cancel.php" method="post">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <button type="submit" class="cancel-btn">Cancel Order</button>
+        </form>
+    </section>
+
+    
+     <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-item">
+                <img src="Mofizur.webp" alt="Md. Mofizur Rahman" class="profile-pic">
+                <p>Md. Mofizur Rahman</p>
+                <p>rahman15-4586@diu.edu.bd</p>
+                <p>213–15–4586 (60_E)</p>
+                <p>+880 13146-23573</p>
+            </div>
+            <div class="footer-item">
+                <img src="shanzida.webp" alt="Shanzida Sazzad" class="profile-pic">
+                <p>Shanzida Sazzad</p>
+                <p>rsazzad15-4546@diu.edu.bd</p>
+                <p>213–15–4546 (60_E)</p>
+                <p>+880 13146-23573</p>
+            </div>
+        </div>
+        <div class="footer-university">
+            <p>© Daffodil International University</p>
+            <p>Dept. Of CSE</p>
+        </div>
+
+
+        <div class="footer-button">
+            <a href="admin.php">
+            <button class="top-right-button">Management Pannel</button>
+        </a>
+        <a href="El-Lavish.pdf" target="_blank">
+            <button class="top-right-button">SRS</button>
+        </a>
+               
+        </div>
+
+    </footer>
+
+
+</body>
+</html>
